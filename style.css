@@ -1,115 +1,249 @@
-html {
-  width: 960px;  
-  background: #d0d0d0;
-  font-family: 'Gill sans', 'Gill sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*Pagina Inicial*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+.body-home {
+  background: linear-gradient(#FEFEFE, #888888);
+}
+
+.cabecalho {
+  background: #aaaaaa;
+  border-radius: 0  0 15px 15px;
+  padding-bottom: 5%;
+}
+
+.titulo {
+  font-size: 55px;
   font-weight: bold;
-  font-size: 60px;
-  text-align: center;
-  padding-top: 30px 0 40px;
-  margin:30px 20px 80px 20px;
-  font-family: 'Gill sans', 'Gill sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background: red;
-  color: #ffffff;
-  padding: 20px 10px 20px 10px;
+  display: inline-flex;
+  margin: 5% 0 0 5%;
 }
 
-.bg {
-  width: 915px;
-  margin: 60px auto;
-  background: white;
-  border-radius: 15px;
-  
-}
-
-.subtitulo, .subtitulo-2, .subtitulo-3, .subtitulo-4 {
-  font-size: 40px;
+.ancora1 {
   font-weight: bold;
-  padding-left: 30px;
-  padding-top: 40px;
-  padding-right: 20px;
+  font-size: 30px;
+  display: inline-flex;
+  margin-left: 28%;
+  text-decoration: none;
+}
+
+.ancora2, .ancora3 {
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-flex;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.foto-bio {
+  width: 40%;
+  margin: 25px 290px 25px 290px;
+  border-radius: 20px;
+  box-shadow: black 15px 1px 18px;
+}
+
+.foto-bio:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+
+.biografia {
+  font-size: 45px;
+  font-weight: bold;
   text-align: center;
-  
 }
 
-.banner, .banner2, .banner3, .banner4, .banner5, .banner6, .banner7, .banner8 {
-  width: 95%;
-  margin-left: 20px;
-  margin-top: 50px;
-  padding-bottom: 30px;
-  border-radius: 15px;
+.primeiro-paragrafos, .primeiro-paragrafos-ultimo {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin: 40px 30px 0 30px;
 }
 
-.paragrafos1, .paragrafos2, .paragrafos3, .paragrafos4 {
+.primeiro-paragrafos-ultimo {
+  margin-bottom: 40px;
+}
+
+.titulo-map {
   font-size: 35px;
-  margin: 20px 25px 20px 25px;
-  padding-bottom: 20px;
-  color: #666666;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0 10px 0;
+}
+
+.map {
+  margin: 0 10% 0 10%;
+  border-radius: 15px;
+}
+
+.entrevista-titulo {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px 0 10px 0;
+}
+
+.video-entrevista {
+  margin: 0 10% 0 10%;
+  border-radius: 15px;
+}
+
+/*Pagina de Fotos*/
+
+.body-fotos {
+  background: linear-gradient(#FEFEFE, #888888);
+}
+
+.imagem1, .imagem4 {
+  width: 40%;
+  display: inline-flex;
+  margin: 70px 3% 0 5%;
+  vertical-align: top;
+  border-radius: 15px;
+  box-shadow: black 19px 19px 18px;
+
+}
+
+.imagem2, .imagem3 {
+  width: 40%;
+  display: inline-flex;
+  margin: 20px 3% 0 5%;
+  vertical-align: top;
+  border-radius: 15px;
+  box-shadow: black 19px 19px 18px;
+
+}
+
+.imagem6, .imagem7, .imagem8 {
+    width: 80%;
+    margin: 40px 10% 0 10%;
+    box-shadow: black 19px 19px 18px;
+    border-radius: 15px;
+}
+
+.imagem8:hover {
+   transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   transform: scale(1.12);
+}
+
+.imagem7:hover {
+   transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   transform: scale(1.12);
+} 
+
+.imagem6:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+.imagem5:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+.imagem4:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+.imagem1:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+.imagem2:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+.imagem3:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+/*Pagina de Filmes*/
+
+.body-filmes {
+  background: linear-gradient(#FEFEFE, #888888);
+}
+
+.capa-2, .capa-4, .capa-6, .capa-8, .capa-10, .capa-1, .capa-3, .capa-5, .capa-7, .capa-9 {
+  width: 35%;
+  margin: 55px 32.5% 10px 32.5%;
+  border-radius: 15px;
+  box-shadow: 15px 15px 18px black;
+}
+
+.paragrafos {
+  font-size: 35px;
+  margin: 20px 35px 20px 35px;
 }
 
 strong {
   font-weight: bold;
-  color: #555555;
 }
 
-a {
-  text-decoration: none;
-  color: red;
+hr {
+  padding: 2px;
 }
 
-.mais, .mais2 {
-  color: red;
-  font-weight: bold;
-  font-size: 45px;
-  margin-left: 25px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.capa-1:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
 
-.divisao {
-  width: 820px;
-  margin: 0 0 50px;
+.capa-2:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
 
-.bg-2 {
-  width: 915px;
-  margin: 60px auto;
-  background: white;
-  border-radius: 15px;
+.capa-3:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
 
-.paragrafos5, .paragrafos6, .paragrafos7, .paragrafos8 {
-  font-size: 35px;
-  margin: 40px 25px 30px 25px;
-  padding-bottom: 20px;
-  color: #666666;
+.capa-4:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
 
-.bg-3 {
-  width: 915px;
-  margin: 60px auto;
-  background: white;
-  border-radius: 15px;
+.capa-5:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
 
-.paragrafos9, .paragrafos10, .paragrafos11, .paragrafos12, .paragrafos13, .paragrafos14 {
-  font-size: 35px;
-  margin: 40px 25px 30px 25px;
-  padding-bottom: 20px;
-  color: #666666;
+.capa-6:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
 
-.bg-4 {
-  width: 915px;
-  margin: 60px auto;
-  background: white;
-  border-radius: 15px;
+.capa-7:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
 
-.paragrafos15, .paragrafos16, .paragrafos17, .paragrafos18, .paragrafos19, .paragrafos20 {
-  font-size: 35px;
-  margin: 40px 25px 30px 25px;
-  padding-bottom: 20px;
-  color: #666666;
+.capa-8:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
 }
+
+.capa-9:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+.capa-10:hover {
+  transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform: scale(1.12);
+}
+
+
+
